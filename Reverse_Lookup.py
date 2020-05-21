@@ -4,7 +4,7 @@ def reverseLookup(dictionary,v):
         
 #dictionary and value
 d={'george': 16, 'amber': 16,'leo': 15}
-value=16
+value=int(input("Enter the value to be searched for in the dictionary: "))
 
 #output
 print(reverseLookup(d,value))
